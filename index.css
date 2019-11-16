@@ -1,0 +1,367 @@
+.navbar {
+  overflow: hidden;
+  background-color:#13565D;
+}
+
+.navbar a {
+
+  float: left;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 20px 25px;
+  text-decoration: none;
+  font-family: sans-serif;
+
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 21px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 20px 25px; /*change untuk ke bawah sikit nav tu */
+  background-color: #13565D;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.social{
+  float: right;
+  padding: 0px 10px;
+
+}
+
+.icon{
+width: 18px;
+height: 20px;
+
+}
+
+.bannerImage{
+  width: 100%;
+
+}
+
+.container {
+  position:relative;
+  font-family: Arial;
+}
+
+
+h4{
+  font-size: 80px;
+  margin: 0;
+  margin-top: 20px;
+  padding: 0;
+  color: black;
+}
+h5{
+  font-size: 40px;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.detail{
+  margin-top: 30px;
+  font-size: 25px;
+}
+.text-block {
+  position: absolute;
+  left: 40px;
+  top: 20px;
+  right: 50%;
+  bottom:20px;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background-color: #f1f1f1;
+  opacity: 90%;
+  box-sizing: border-box;
+
+}
+
+.button{
+  font: Segoe UI;
+  color: white;
+  width: 500px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size:30px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 280px;
+  margin-top: 30px;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 4px solid #555555;
+}
+
+.button1:hover {
+  background-color: #555555;
+  color: white;
+}
+
+  * {
+      margin: 0;
+      padding: 0;
+  }
+
+  .tabs{
+    position: absolute;
+    left:54%;
+    top: 20px;
+    bottom:20px;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    opacity: 90%;
+  }
+
+  .tabs .tab{
+      float:left;
+      display: block;
+  }
+
+  .tabs .tab>input[type="radio"] {
+      position: fixed;
+      top: -9999px;
+      left: -9999px;
+  }
+
+  .tabs .tab>label {
+      display: block;
+      padding: 3px 70px;
+      font-size: 20px;
+      text-transform: uppercase;
+      cursor: pointer;
+      position: relative;
+      color: #FFF;
+      background: #303030;
+  }
+
+  .tabs .content {
+      z-index: 0;/* or display: none; */
+      overflow: hidden;
+      width: 600px;
+      padding: 25px;
+      position: absolute;
+      top: 27px;
+      left: 0;
+      background:  #14A098;
+      color: #DFDFDF;
+      opacity:0;
+      transition: opacity 400ms ease-out;
+  }
+
+  .announcementLink{
+    float: right;
+    padding-top: px;
+  }
+
+  .tabs>.tab>[id^="tab"]:checked + label {
+      top: 0;
+      background:  #14A098;
+      color: #F5F5F5;
+  }
+
+  .tabs>.tab>[id^="tab"]:checked ~ [id^="tab-content"] {
+      z-index: 1;/* or display: block; */
+
+      opacity: 1;
+      transition: opacity 400ms ease-out;
+  }
+  .ANNS{
+    color: black;
+    font-size: 25px;
+  }
+  table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.note{
+  color: red;
+}
+
+.COUNTDOWN{
+  position: absolute;
+  top: 400px;
+  bottom:20px;
+  left: 0%;
+  right: 10%;
+  color: black;
+  text-align: center;
+  opacity: 90%;
+  background-color: rgba(83,132,137,0.90);
+  width: 650px;
+  height: 300px;
+}
+
+h1{
+  color: #000000;
+  font-weight: 100;
+  font-size: 50px;
+  margin: 25px 0px 30px;
+}
+
+#clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+#clockdiv > div{
+	padding: 0;
+	border-radius: 3px;
+	background: #00BF96;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+
+  padding: 40px;
+	border-radius: 3px;
+	background: #00816A;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 20px;
+}
+
+.Footimg{
+  width:100%;
+}
+
+.Footer {
+  position:relative;
+  font-family: Arial;
+  font-size: 20px;
+  color: white;
+}
+
+.TextF1{
+  position: absolute;
+ top: 10%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  opacity: 80%;
+}
+
+.iiumlogo{
+  position: absolute;
+ top: 40%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  opacity: 80%;
+  width: 100px;
+  height:100px;
+}
+
+.TextF2{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  opacity: 80%;
+  width: 500px;
+  height: 20px;
+}
+.TextF3{
+  position: absolute;
+  left: 30%;
+  top:200px;
+  bottom:20px;
+  text-align: center;
+  opacity: 80%;
+  width: 150px;
+  height: 30px;
+}
+
+.TextF4{
+  position: absolute;
+  left: 42%;
+  top: 200px;
+  right: 40%;
+  bottom:20px;
+  text-align: center;
+  opacity: 80%;
+  width: 400px;
+  height: 30px;
+}
+
+.iconF{
+padding-right: 5px;
+  width: 20px;
+  height: 15px;
+}

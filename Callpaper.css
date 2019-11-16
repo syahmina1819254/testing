@@ -1,0 +1,180 @@
+body{
+  font-family: sans-serif;
+  height: auto; /*if more info comes on the page, it will stretch down*/
+  width: auto;
+  margin: 2px ; /*this will cause the div to be in the center*/
+
+}
+.navbar {
+  overflow: hidden;
+background-color:#13565D;
+    width: 100%
+}
+
+.navbar a {
+  float: left;
+  font-size: 21px;
+  color: white;
+  text-align: center;
+  padding: 20px 25px;
+  text-decoration: none;
+
+
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 21px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 20px 25px; /*change untuk ke bawah sikit nav tu */
+  background-color: #13565D;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.social{
+  float: right;
+  padding: 0px 10px;
+
+}
+
+.icon{
+width: 18px;
+height: 20px;
+
+}
+
+html {
+  background-image:url(image/background.jpg);
+    background-repeat:repeat-y;
+     background-size: 100%;
+     width: 100%;
+     overflow-x: hidden;
+}
+
+h1
+{
+  box-sizing: border-box;
+  width: 100%;
+  border-bottom: 1px solid #1A887C;
+  float: left;
+  font-size: 40px;
+  text-align: center;
+}
+
+.Call {
+  text-align: left;
+  font-size: 19px;
+}
+
+.float {
+   cursor: pointer;
+   background-color: rgba(24,166,210,0.65);
+   border: 1px solid #13565D;
+   color: white;
+   float: right;
+
+}
+.IT, .Microfinance, .Creation, .New, .Bioinformatics
+{
+  width: 100%;
+  border: 1px solid #13565D;;
+  overflow: hidden;
+  padding: 10px;
+  background-color:rgba(19, 86, 93, 0.70);
+  display: flex;
+  align-items: center;
+
+}
+.ITi, .Microfinancei, .Creationi, .Newi, .Bioinformaticsi
+{
+  float: left;
+  box-sizing: border-box;
+  width: 37%;
+  position: relative;
+  align-items: center;
+  display: flex;
+ justify-content: center;
+}
+.list
+{
+  float:left;
+  font-size: 25px solid white;
+  box-sizing: border-box;
+  width: 63%;
+}
+.text1 {
+  position: absolute;
+  background-color:rgba(19, 86, 93, 0.70);
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 60%;
+}
+
+ul{
+  color: white;
+}
+.photo
+ {
+   max-width: 100%;
+   max-height: 100%;
+   display: block;
+ }
+
+ .Fsocial{
+   width: 100%;
+   background-color: #13565D;
+   margin-bottom: 0;
+ padding: 10px;
+   text-align: center;
+   overflow: auto;
+ color: white;
+
+ }
+
+ .Ficon{
+   padding-right: 30px;
+   width: 20px;
+   height: 20px;
+   float: right;
+
+ }
